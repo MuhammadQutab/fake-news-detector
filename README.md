@@ -16,6 +16,31 @@ python -m src.models.train_baseline --csv data/dataset.csv --out models/baseline
 streamlit run src/app/streamlit_app.py
 ```
 
+
+```
+## 🧠 Model Weights (Download & Place) 
+
+This app expects the trained model files to be present locally.
+
+1. **Download the weights** from the latest release:  
+   ➡️ **[fake_real_model_v1.zip]([https://github.com/MuhammadQutab/fake-news-detector/releases/download/v1.1.0/fake_real_model_v1.zip])**
+
+2. **Unzip** into this exact folder:
+models/fake_real_model/
+
+sql
+Copy code
+Your folder should then look like:
+models/fake_real_model/
+├─ config.json
+├─ pytorch_model.bin (or model.safetensors)
+├─ tokenizer.json
+├─ tokenizer_config.json
+├─ vocab.txt
+└─ special_tokens_map.json
+```
+
+
 ## DistilBERT fine‑tune (optional but recommended)
 
 ```bash
