@@ -23,7 +23,7 @@ streamlit run src/app/streamlit_app.py
 This app expects the trained model files to be present locally.
 
 1. **Download the weights** from the latest release:  
-   ➡️ **[fake_real_model_v1.zip]([https://github.com/MuhammadQutab/fake-news-detector/releases/download/v1.1.0/fake_real_model_v1.zip])**
+   ➡️ **[fake_real_model_v1.zip] ([ (https://github.com/MuhammadQutab/fake-news-detector/releases/download/v1.1.0/fake_real_model_v1.zip) ])**
 
 2. **Unzip** into this exact folder:
 models/fake_real_model/
