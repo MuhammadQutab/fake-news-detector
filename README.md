@@ -48,6 +48,13 @@ models/fake_real_model/
 python -m src.models.train_distilbert --csv data/dataset.csv --epochs 2 --out models/distilbert
 ```
 
+
+## LinkedIn Video Link:
+
+
+https://www.linkedin.com/posts/muhammadqutab03_python-nlp-transformers-activity-7384967969140891648-dyit?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDX9coBoMdRTqxs5ojMW8ScnBWaDJMcSkc
+
+
 ## Expected CSV format
 `data/dataset.csv` with columns: `text,label` where label is 0 (real) or 1 (fake). A tiny sample is included so you can test the pipeline.
 
